@@ -1,0 +1,26 @@
+# Compilation
+cpp/build/
+build/
+
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Mesures et graphiques de nouvelles campagnes
+results/
+
+# Éditeurs et fichiers système
+.idea/
+.vscode/
+.DS_Store
+._*
+__MACOSX/
+
+# Compilation du rapport LaTeX
+docs/rapport/*.aux
+docs/rapport/*.log
+docs/rapport/*.out
+docs/rapport/*.toc
+docs/rapport/main.pdf
